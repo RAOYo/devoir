@@ -1,0 +1,16 @@
+Algorithme : parité
+
+Variables: n ,i : entiers;
+
+Début
+    AFFICHER("Veuillez entrer le nombre que vous voulez: ");
+    SAISIR(n);
+    AFFICHER("les nombres paires entre 1 et ",n ,"sont:");
+    Pour( i<-1 ; i<=n ; i++)
+        Si(i%2=0)
+            AFFICHER(i);
+        finsi
+        
+    finPour
+    
+Fin

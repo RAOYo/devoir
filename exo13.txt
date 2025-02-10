@@ -1,0 +1,20 @@
+Algorithme: multiplication
+
+Variables: i: entier;
+           n,multiplication: réels;
+    
+Début
+    AFFICHER("veuillez entrer un nombre :");
+    SAISIR(n);
+    AFFICHER("1");
+    
+    multiplication=1;
+    Pour(i<-2 ; i<=n ; i++)
+        multiplication <- multiplication * i;
+        AFFICHER("* ",i);
+    finPour
+    
+    AFFICHER("= ",multiplication);
+    AFFICHER("la multiplication de" ,n ,"est: ",multiplication);
+    
+Fin

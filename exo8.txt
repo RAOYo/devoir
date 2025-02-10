@@ -1,0 +1,23 @@
+Algorithme : maximum entre 3 nombres
+
+Variables a,b,c,max : réels;
+
+Début
+    AFFICHER("veuillez entrer la valeur de a:");
+    SAISIR(a);
+    AFFICHER("veuillez entrer la valeur de b:");
+    SAISIR(b);
+    AFFICHER("veuillez entrer la valeur de c:");
+    SAISIR(c);
+    max<-a;
+    Si(max<b && b<c || (max>b && b<c)) alors
+	max<-c;
+        AFFICHER("le nombre c="max"est max ",);
+    	Sinon si (max<c && c<b || (max>c || c<b)) alors
+	        max<-b;
+		AFFICHER("le nombre b="max "est max");
+    		Sinon AFFICHER("le max est A="max "est max");
+              finsi
+    finsi
+    
+Fin

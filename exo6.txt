@@ -1,0 +1,18 @@
+Algorithme : moyenne des notes
+
+Variables : nb1, nb2, coef1, coef2, moyenne : réels;
+
+Début
+
+    AFFICHER("Veuillez entrer la première note:");
+    SAISIR(nb1);
+    AFFICHER("Veuillez entrer la deuxième note:");
+    SAISIR(nb2);
+    AFFICHER("Veuillez entrer  le coefficient de la première note:");
+    SAISIR(coef1);
+    AFFICHER("Veuillez entrer le coefficient de la deuxième note:");
+    SAISIR(coef2);
+    moyenne<-((nb1*coef1)+(nb2*coef2))/ (coef1+ coef2);
+    AFFICHER("la moyenne est :",moyenne);
+    
+Fin

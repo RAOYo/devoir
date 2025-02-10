@@ -1,0 +1,19 @@
+algorithme: Positif ou négatif
+
+variable a:entier;
+
+Début 
+	AFFICHER("Entrer un nombre a");
+	SAISIR("a");
+	Si (a>0) alors
+		AFFICHER("Le nombre est positif");
+		Sinon si (a<0) alors
+			AFFICHER("Le nombre est négatif");
+			Sinon 
+				AFFICHER("Le nombre est nul");
+			finsi
+	finsi
+	
+Fin
+	
+	

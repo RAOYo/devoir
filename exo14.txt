@@ -1,0 +1,18 @@
+algorithme: somme
+
+Variables: i: entier;
+           n,somme: réel;
+          
+Début
+    AFFICHER("Veuillez entrer le nombre n: ");
+    SAISIR(n);
+    AFFICHER("0");
+    somme <- 0;
+    Pour(i<-1 ; i<= n ; i++)
+        somme <- somme + (1/i);
+        AFFICHER("+1/",i);
+    finpour
+    
+    AFFICHER("=",somme);
+    
+Fin

@@ -1,0 +1,19 @@
+Algorithme: somme et moyenne
+
+Variables: a, b : entier;
+	   somme , moyenne : reels;
+	  
+Début	  
+	
+    AFFICHER("Veuillez entrer le premier nombre:");
+    SAISIR(a);
+    
+    AFFICHER("Veuillez entrer le second nombre:");
+    SAISIR(b);
+
+    somme <-a+b;
+    moyenne <-(a*b)/2;
+    AFFICHER("La somme est :" ,somme, "et La moyenne est :",moyenne);
+    
+Fin
+    

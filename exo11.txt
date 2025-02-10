@@ -1,0 +1,18 @@
+Algorithme : factoriel
+
+variables: n,fact : réels;
+	   i : entier;
+Début
+    AFFICHER("entrer un nombre :");
+    SAISIR(n);
+    AFFICHER("1");
+    fact<-1;
+    Pour(i<-2 ; i<=n ; i++)
+        fact<-fact *i;
+        AFFICHER("*"i);
+    finpour
+    
+    AFFICHER("= \n",fact);
+    AFFICHER("le factoriel de ce nombre",n,"est:" ,fact);
+    
+Fin

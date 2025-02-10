@@ -1,0 +1,15 @@
+Algorithme : échange de valeurs
+
+Variables: a,b,tmp: reéls ;
+
+Début
+    AFFICHER("Veuillez entrer la première valeur que vous voulez A=");
+    SAISIR(a);
+    AFFICHER("Veuillez entrer la deuxième valeur que vous voulez B=");
+    SAISIR(b);
+    tmp<- a; //échange valeur
+    a <- b;
+    b <-tmp;
+    AFFICHER("la valeur finale de A"= ,a,"et B=" ,b );
+    
+Fin

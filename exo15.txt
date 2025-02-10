@@ -1,0 +1,16 @@
+Algorithme :calcul de la somme élevée au carée
+
+Variables:  i: entier;
+	    somme,n : réel;
+Début
+    AFFICHER("Veuillez entrer un nombre: ");
+    SAISIR(n);
+    AFFICHER("0");
+    somme= 0;
+    Pour(i <- 0 ; i<=n ; i++)
+        somme <- somme + pow(10,i);
+        AFFICHER("+ 10^",i);
+    finPour
+    AFFICHER("=",somme);
+
+Fin

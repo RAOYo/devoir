@@ -1,0 +1,16 @@
+algorithme: signe de produit
+
+variables  a,b,c: réel;
+
+Début
+    AFFICHER("Veuillez entrer le premier nombre :");
+    SAISIR(a);
+    AFFICHER("Veuillez entrer le second nombre :");
+    SAISIR("%d",&b);
+    c <- a*b;
+    si (a>0 && b>0 || a<0 && b<0)alors
+        AFFICHER("le produit est positif");
+    	sinon
+        	AFFICHER("le produit est négatif");
+    fin si
+fin
